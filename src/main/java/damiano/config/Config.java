@@ -7,12 +7,12 @@ import damiano.implementation.Order;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 public class Config {
-//    @Bean
-//    public IPizza pizza(){
-//        return new BigPizza(15, "duza");
-//    }
+    @Bean
+    public IPizza pizza(){
+        return new BigPizza(18, "duza");
+    }
 //    @Bean
 //    public IOrder order(IPizza pizza){
 //        return new Order(pizza);

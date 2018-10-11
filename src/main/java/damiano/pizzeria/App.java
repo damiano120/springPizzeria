@@ -11,6 +11,5 @@ public class App {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AutoConfig.class);
         IOrder order = context.getBean(Order.class);
         order.printOrder();
-        I
     }
 }

@@ -11,6 +11,7 @@ public class Order implements IOrder {
     private IPizza pizza;
 
     public Order(@Qualifier("Big") IPizza pizza) {
+        super();
         this.pizza = pizza;
     }
 

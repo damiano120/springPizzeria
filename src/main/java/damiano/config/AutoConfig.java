@@ -6,6 +6,6 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @ComponentScan("damiano.implementation")
-//@Import(Config.class)
+@Import(Config.class)
 public class AutoConfig {
 }
